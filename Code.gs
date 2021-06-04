@@ -35,7 +35,7 @@ function ReadingDashboard() {
   
   // Use email to select role
   if(/\d/.test(email)==true){role = "Student";}
-  else{role = "Teacher";}
+  else{role = "Staff";}
   formSheet.getRange(newDataRow, roleCol).setValue(role);
   
   // Make title lowercase to reduce duplicates of the same title
